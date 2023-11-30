@@ -1,2 +1,2 @@
 # Chucker for compose desktop
-![License](https://img.shields.io/github/license/SabitMussabek/chucker-for-compose-desktop.svg)
+![License](https://img.shields.io/github/license/SabitMussabek/chucker-for-compose-desktop.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](http://makeapullrequest.com)
