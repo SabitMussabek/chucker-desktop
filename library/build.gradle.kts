@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.10"
+    id("io.ktor.plugin") version "2.3.6"
 }
 
 group = "com.chuckerdesktop"
@@ -10,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation("io.ktor:ktor-server-core")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
