@@ -6,12 +6,9 @@ plugins {
 group = "com.chuckerdesktop"
 version = "1.0.0"
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    implementation("io.ktor:ktor-server-core")
+    implementation("io.ktor:ktor-client-core")
+    implementation("org.jetbrains.compose.ui:ui-desktop:1.5.11")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
