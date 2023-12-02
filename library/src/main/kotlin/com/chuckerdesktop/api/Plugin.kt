@@ -22,11 +22,12 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.window.*
+import androidx.compose.ui.window.Tray
+import androidx.compose.ui.window.Window
+import androidx.compose.ui.window.awaitApplication
 import io.ktor.client.call.*
 import io.ktor.client.plugins.*
 import io.ktor.client.plugins.api.*
-import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
