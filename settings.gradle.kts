@@ -3,3 +3,4 @@ plugins {
 }
 
 include("library")
+include("sample")
