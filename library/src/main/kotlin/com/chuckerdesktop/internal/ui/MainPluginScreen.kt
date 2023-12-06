@@ -32,7 +32,7 @@ import io.ktor.client.statement.*
 import kotlinx.coroutines.launch
 
 @Composable
-internal fun ApplicationScope.MainScreen(client: HttpClient) {
+internal fun ApplicationScope.MainPluginScreen(client: HttpClient) {
     var isVisible by remember { mutableStateOf(false) }
 
     Window(

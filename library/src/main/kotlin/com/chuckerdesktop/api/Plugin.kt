@@ -1,7 +1,7 @@
 package com.chuckerdesktop.api
 
 import androidx.compose.ui.window.awaitApplication
-import com.chuckerdesktop.internal.ui.MainScreen
+import com.chuckerdesktop.internal.ui.MainPluginScreen
 import io.ktor.client.plugins.api.*
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
@@ -16,7 +16,7 @@ val ChuckerDesktopPlugin: ClientPlugin<ChuckerDesktopPluginConfig> = createClien
 ) {
     MainScope().launch {
         awaitApplication {
-            MainScreen(client)
+            MainPluginScreen(client)
         }
     }
 }
