@@ -1,8 +1,8 @@
 
 plugins {
-    kotlin("jvm")
-    id("org.jetbrains.compose")
-    id("io.ktor.plugin")
+    alias(libs.plugins.jvm)
+    alias(libs.plugins.ktor)
+    alias(libs.plugins.compose)
 }
 
 
@@ -17,6 +17,7 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(17)
 }
