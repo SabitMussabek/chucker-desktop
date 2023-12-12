@@ -10,7 +10,7 @@ val DependencyHandler.kotlin: Kotlin get() = Kotlin
 object Kotlinx {
     val coroutines: Coroutines get() = Coroutines
     object Coroutines {
-        const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+        const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0"
     }
 }
 
