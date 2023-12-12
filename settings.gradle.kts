@@ -9,7 +9,7 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
 
-            version("ktor", "2.3.7")
+            version("ktor", "2.3.5")
             version("kotlinx", "1.7.1")
             version("compose", "1.5.11")
             version("kotlin", "1.9.21")
