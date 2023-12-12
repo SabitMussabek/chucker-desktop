@@ -1,0 +1,14 @@
+[versions]
+ktor = "2.3.5"
+kotlinx = "1.7.1"
+compose = "1.5.11"
+kotlin = "1.9.21"
+
+[libraries]
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx" }
+ktor-client-core = { group = "io.ktor", name = "ktor", version.ref = "ktor" }
+
+[plugins]
+jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
