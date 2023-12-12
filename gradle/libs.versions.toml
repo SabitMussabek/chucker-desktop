@@ -5,8 +5,8 @@ compose = "1.5.11"
 kotlin = "1.9.21"
 
 [libraries]
-kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx" }
-ktor-client-core = { group = "io.ktor", name = "ktor", version.ref = "ktor" }
+kotlinx-coroutines-core = { name = "kotlinx-coroutines-core", group = "org.jetbrains.kotlinx", version.ref = "kotlinx" }
+ktor-client-core = { name = "ktor", group = "io.ktor", version.ref = "ktor" }
 
 [plugins]
 jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
