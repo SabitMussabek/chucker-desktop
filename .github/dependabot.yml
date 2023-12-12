@@ -12,10 +12,3 @@ updates:
     open-pull-requests-limit: 10
     reviewers:
     - "SabitMussabek"
-  - package-ecosystem: gradle
-    directory: "buildSrc"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 10
-    reviewers:
-      - "SabitMussabek"

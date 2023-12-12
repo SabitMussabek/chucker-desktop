@@ -1,3 +1,4 @@
+
 plugins {
     kotlin("jvm")
     id("org.jetbrains.compose")
@@ -9,9 +10,8 @@ dependencies {
     implementation(compose.ui)
     implementation(compose.material)
     implementation(compose.foundation)
-    implementation(ktor.client.core)
-    implementation(kotlinx.coroutines.core)
-    testImplementation(kotlin.test)
+    implementation(libs.ktor.client.core)
+    implementation(libs.kotlinx.coroutines.core)
 }
 
 tasks.test {

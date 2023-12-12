@@ -14,9 +14,8 @@ dependencies {
     implementation(compose.material)
     implementation(compose.foundation)
     implementation(compose.desktop.currentOs)
-    implementation(ktor.client.core)
-    implementation(kotlinx.coroutines.core)
-    testImplementation(kotlin.test)
+    implementation(libs.ktor.client.core)
+    implementation(libs.kotlinx.coroutines.core)
 }
 
 tasks.test {
