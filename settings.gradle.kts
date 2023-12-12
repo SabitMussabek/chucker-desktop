@@ -6,7 +6,10 @@ include("library")
 include("sample")
 
 dependencyResolutionManagement {
+
     versionCatalogs {
+
+
         create("libs") {
 
             version("ktor", "2.3.5")
