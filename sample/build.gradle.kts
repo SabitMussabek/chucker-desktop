@@ -1,11 +1,8 @@
 plugins {
-    alias(libs.plugins.jvm)
-    alias(libs.plugins.ktor)
-    alias(libs.plugins.compose)
-}
-
-repositories {
-    mavenCentral()
+    kotlin("jvm")
+    kotlin("plugin.serialization")
+    id("io.ktor.plugin")
+    id("org.jetbrains.compose")
 }
 
 dependencies {
@@ -14,7 +11,7 @@ dependencies {
     implementation(compose.material)
     implementation(compose.foundation)
     implementation(compose.desktop.currentOs)
-    implementation(libs.ktor.client.core)
+    implementation(libs.bundles.ktor)
     implementation(libs.kotlinx.coroutines.core)
 }
 

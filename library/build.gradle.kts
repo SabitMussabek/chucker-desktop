@@ -1,7 +1,7 @@
 plugins {
-    alias(libs.plugins.jvm)
-    alias(libs.plugins.ktor)
-    alias(libs.plugins.compose)
+    kotlin("jvm")
+    id("org.jetbrains.compose")
+    id("io.ktor.plugin")
 }
 
 
