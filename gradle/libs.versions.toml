@@ -1,6 +1,6 @@
 [versions]
 kotlin = "1.9.22"
-ktor = "2.3.7"
+ktor = "2.3.8"
 compose = "1.5.11"
 kotlinx = "1.7.3"
 
