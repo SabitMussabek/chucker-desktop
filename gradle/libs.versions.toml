@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.9.22"
+kotlin = "1.9.23"
 ktor = "2.3.9"
 compose = "1.6.0"
 kotlinx = "1.8.0"
