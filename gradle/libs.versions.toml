@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.0.0"
 ktor = "2.3.11"
-compose = "1.6.10"
+compose = "1.6.11"
 kotlinx = "1.8.1"
 
 [libraries]
