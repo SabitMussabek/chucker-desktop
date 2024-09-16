@@ -2,7 +2,7 @@
 kotlin = "2.0.20"
 ktor = "2.3.12"
 compose = "1.6.11"
-kotlinx = "1.8.1"
+kotlinx = "1.9.0"
 
 [libraries]
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx" }
